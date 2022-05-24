@@ -1,0 +1,267 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+body, html{
+	height: 100%;
+	margin: 0;
+}
+#bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.back{
+  width: 100%;
+
+
+}
+.slideshow
+{
+	height: 150px;
+	position: relative;
+  background: #f1f1f1f1;
+}
+.qoutes{
+  display: none;
+height: 100px;
+padding: 80px;
+text-align: center;
+}
+.qoutes, q{
+	padding-top: 60px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+q {
+	font-style: italic;
+	font-size: 30px;
+}
+.author {
+	color: cornflowerblue;
+	font-size: 15px;
+}
+.menybox{
+  margin: 0;
+  padding: 0;
+  overflow:visible;
+  height:0px;
+  flex-direction: row;
+  display: flex;
+position: sticky;
+top: 0;
+width: 100%;
+}
+.nav{
+display:flex;
+margin-left: 770px;
+margin-top: 36px;
+float: left;
+  font-family: Blenny;
+  margin-right: 10px;
+	height: 100%;
+}
+.nav a{
+  margin-right: 30px;
+   color: #fff;
+   font-size: 31px;
+	 text-decoration: none;
+	text-shadow: 4px 4px 8px #000000;
+}
+.nav a:hover{
+	font-size: 38px;
+	text-shadow: 6px 6px 12px #000000;
+	transition: .2s ease-in-out;
+}
+.logo a{
+ height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+
+
+}
+
+.albumcover{
+	margin-top: 1100px;
+	margin-left: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.albumcover img{
+	width: 300px;
+	margin: 50px;
+	box-shadow: 4px 4px 5px rgba(7, 96, 77, 0.57);
+}
+.albumcover img:hover{
+	opacity: 0.6;
+	transition: .5s ease;
+}
+.albumcover a{
+		text-decoration: none;
+}
+.albumcover h1{
+	margin-left: 50px;
+	text-decoration: none;
+	 color: #fff;
+	 font-size: 45px;
+	text-shadow: 4px 4px 8px #000000;
+width: 20px;
+}
+.albumcover h1:hover{
+ color: #fff;
+ font-size: 40px;
+ transition: .4s ease-in-out;
+  text-shadow:4px 2px 8px rgba(255, 255, 255, 0.53);
+}
+.storecover{
+	margin-top: 1600px;
+	margin-left: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.storecover img{
+	width: 300px;
+	margin: 50px;
+	box-shadow: 4px 4px 5px rgba(152, 13, 13, 0.54);
+}
+.storecover img:hover{
+	opacity: 0.6;
+transition: .5s ease;
+}
+.storecover h1{
+	margin-left: 50px;
+	text-decoration: none;
+	 color: #fff;
+	 font-size: 45px;
+	 text-decoration: none;
+	text-shadow: 4px 4px 8px #000000;
+width: 20px;
+}
+.storecover a{
+		text-decoration: none;
+}
+.storecover h1:hover{
+ color: #fff;
+ font-size: 40px;
+ transition: .4s ease-in-out;
+ text-shadow:4px 2px 8px rgba(255, 255, 255, 0.53);
+}
+.covers img{
+border-radius: 5px;
+
+	}
+.covers img:hover{
+	box-shadow: 6px 5px 5px lightblue;
+}
+.about{
+	display: flex;
+	flex-direction: row;
+	background-color: #101116;
+	height: 500px;
+	padding-top: 20px;
+}
+.aboutimg {
+width: 300px;
+}
+.shitimage{
+	margin-left: 300px;
+	margin-top: 90px;
+	box-shadow: 3px 4px 5px #9c27b0;
+	height: 300px;
+
+}
+.shitimage img{
+	border-radius: 5px;
+}
+.shitimage img:hover{
+	opacity: 0.6;
+transition: .2s ease-in-out;
+	box-shadow: 6px 5px 5px #ec2112;
+}
+.abouttext{
+	margin-top: 130px;
+	margin-left: 50px;
+
+}
+.abouttext h1{
+	 color: #fff;
+	 font-size: 40px;
+	 text-decoration: none;
+	text-shadow: 4px 4px 8px #000000;
+width: 20px;
+margin-bottom: 10px;
+}
+.abouttext a{
+	text-decoration: none;
+
+}
+.abouttext h1:hover{
+ color: #fff;
+ font-size: 42px;
+ transition: .4s ease-in-out;
+ text-shadow:4px 2px 8px rgba(255, 255, 255, 0.33);
+}
+.abouttext p{
+	text-decoration: none;
+	 color: #fff;
+	 font-size:19px;
+	 text-decoration: none;
+	text-shadow: 4px 4px 8px #000000;
+	width: 600px;
+}
+.rights{
+	background-color: #000;
+
+}
+.rights p{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
